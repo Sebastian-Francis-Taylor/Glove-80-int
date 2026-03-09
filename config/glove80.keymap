@@ -113,10 +113,10 @@
         lower_layer {
             bindings = <
             &none         &none         &none       &none           &none                                                                                                              &none          &none            &none           &none           &none
-            &trans        &none         &none       &none           &none           &kp HOME                                                                              &none        &none          &none            &none           &none           &none 
-            &trans        &none         &none       &kp DA_LBKT     &kp DA_RBKT     &kp END                                                                               &none        &kp DA_DOLLAR  &kp DA_PIPE      &kp DA_TILDE    &none           &none
-            &trans        &none         &none       &kp DA_LBRC     &kp DA_RBRC     &kp PG_UP                                                                             &none        &kp DA_AT_SIGN &kp DA_BACKSLASH &kp DA_QUESTION &none           &none
-            &trans        &none         &none       &kp DA_LT       &kp DA_GT       &kp PG_DN       &trans      &trans      &trans      &trans      &trans      &trans    &none        &none          &none            &none           &none           &none
+            &trans        &none         &none       &none           &none           &none                                                                                 &none        &none          &none            &none           &none           &none 
+            &trans        &none         &none       &kp DA_LBKT     &kp DA_RBKT     &none                                                                                 &none        &kp DA_DOLLAR  &kp DA_PIPE      &kp DA_TILDE    &none           &none
+            &trans        &none         &none       &kp DA_LBRC     &kp DA_RBRC     &none                                                                                 &none        &kp DA_AT_SIGN &kp DA_BACKSLASH &kp DA_QUESTION &none           &none
+            &trans        &none         &none       &kp DA_LT       &kp DA_GT       &none           &trans      &trans      &trans      &trans      &trans      &trans    &none        &none          &none            &none           &none           &none
             &trans        &none         &none       &none           &none                           &trans      &trans      &trans      &trans      &trans      &trans                 &none          &none            &none           &none           &none
             >;
         };
